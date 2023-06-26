@@ -47,13 +47,19 @@ a {
     background-color: #1F2937;
 }
 
-.content {
+.container-1 {
     display: flex;
-    flex: 1;
 }
 
 .hero-text {
     background-color: #1F2937;
+    /* display: flex; */
+
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .subtext {
@@ -83,6 +89,10 @@ a {
 .info, .info-title {
     background-color: #f9faf8;
     color: #1F2937;
+}
+
+.info {
+    /* display: flex; */
 }
 
 .info-title {
