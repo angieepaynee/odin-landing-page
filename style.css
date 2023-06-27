@@ -102,10 +102,32 @@ a {
 .info, .info-title {
     background-color: #f9faf8;
     color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
+
 .info {
-    /* display: flex; */
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+  }
+
+.box {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid  #3882F6;
+    padding: 20px;
+    height: 100px;
+    flex-direction: column;
 }
 
 .info-title {
@@ -123,7 +145,7 @@ a {
     color: #1f2937;
 }
 
-.signup {
+.sign-up {
     background-color:  #3882F6;
     color:#f9faf8;
 }
