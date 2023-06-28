@@ -18,7 +18,7 @@ body {
 }
 
 .header-logo {
-    font-size: 24px;
+    font-size: 27px;
     color: #F9FAF8;
 }
 
@@ -30,17 +30,24 @@ ul {
     gap: 16px;
     margin: 0;
     padding: 0;
-
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 22px;
+}
+
+a:visited {
+    color: #E5E7EB;
+}
+
+a:hover {
+    background-color: orange;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 65px;
     font-weight: 900px;
     font-family: Roboto, sans-serif;
     color: #f9faf8;
@@ -54,63 +61,58 @@ a {
     background-color: #1F2937;
     align-items: center;
     justify-content: center; 
-    /* border: 2px solid lightblue; */
 }
 
 .hero-container {
     display: flex;
     background-color: #1F2937;
-    /* border: 2px solid green; */
     justify-content: center;
     gap: 24px;
     min-height: 300px;
-  
-   
-    
 }
 
 .title-container {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid yellow; */
-    gap: 8px;
+    gap: 16px;
     justify-content: center;
-    margin-bottom: 30px;
-    
     width: 500px;
-
-   
+    padding: 50px;
 }
 
 .image-container {
     display: flex;
-    /* border: 2px solid yellow; */
     background-color: lightslategray;
     align-items: center;
     justify-content: center;
     width: 500px;
-
+    padding: 50px;
 }
 
 
 .subtext {
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 24px;
     filter: contrast(60%);
     padding-bottom: 15px;
 
 }
-.button-bottom, .button-top {
+.button-top, .button-bottom {
     background-color: #3882F6;
     padding: 4px 10px;
     color:#f9faf8;
     border-radius: 25px;
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     border: 0;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 900px;
+    flex-shrink: 0;
+}
 
+.button-top:hover,
+.button-bottom:hover {
+    background-color: orange;
 }
 
 .button-bottom {
@@ -121,27 +123,24 @@ a {
     background-color: #f9faf8;
     color: #1F2937;
     display: flex;
-    padding: 30px;
-    padding-bottom: 50px;
 }
 
 .info-title {
-    font-size: 36px;
+    font-size: 56px;
     align-items: center;
     justify-content: center;
     padding-bottom: 0;
+    padding-top: 15px;
 }
 
 .container-2 {
-    padding: 75px 30px;
+    padding: 75px 60px;
     justify-content: center;
     align-items: center;
-
 }
 
 .boxes {
     max-width: 200px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -154,25 +153,25 @@ a {
 .box {
     width: 100px;
     border-radius: 25px;
-    border: 2px solid  #3882F6;
-    padding: 20px;
+    border: 3px solid  #3882F6;
+    padding: 40px;
     height: 100px;
 }
 
 .text {
     text-align: center;
+    font-size: 22px;
 }
 
 .container-3 {
     background-color: #e5e7eb;
-    padding: 75px 30px;
+    padding: 75px 60px; 
     display: flex;
     align-items: center;
     justify-content:center;
 }
 
 .quote-container {
-  /* border: 3px solid black; */
   padding: 25px 50px;
   width: 700px;
   align-items: center;
@@ -180,19 +179,16 @@ a {
 }
 
 .quote-content {
-    font-size: 36px;
-    font-weight: light;
+    font-size: 46px;
     font-style: italic;
-    filter: contrast(60%);
+    filter: contrast(50%);
     color: #1f2937;
-    /* border: 1px solid black;  */
     padding-bottom: 20px;
 }
 
 .quote-name {
-    font-size: 24px;
+    font-size: 31px;
     font-weight: 900;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: flex-end;
 }
@@ -211,33 +207,34 @@ a {
     color:#f9faf8;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    width: 1000px;
+    padding: 70px;
+    width: 1200px;
 }
 
 .signup-container {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 
 .signup-info {
     display: flex;
     font-weight: 900;
-    font-size: 24px;
-  
+    font-size: 36px;
+}
+
+.signup-sub-info {
+    font-size: 18px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #f9faf8;
-    font-size: 14px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
-
-
     margin: 0;
     padding: 30px;
 }
